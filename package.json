@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/scan-pdf-files.js",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.13.0",
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "nuxt": "^3.17.4",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  }
+}
