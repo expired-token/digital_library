@@ -2,24 +2,23 @@
 
 
 @theme static {
-    --font-display: "Montserrat", "sans-serif";
-    --color-primary: #32d1c6/*66FCF1*//*800080*/;
+    --font-display: "Montserrat", sans-serif;
+    --color-primary: #32C1C6;
     --color-secondary: #1F2833;
-    --color-disabled: #C5C6C7/*7A7A7A*/;
+    --color-disabled: #C5C6C7;
     --color-background: #0B0C10;
-    --color-white: #FFF;
+    --color-white: #E4E3E3;
     --color-warn: #C4B135;
     --color-danger: #D14536;
     --color-success: #00C16A;
-
-    --color-light-primary: rgba(128, 0, 128, .175);
-
-    --color-light-gray: #E4E3E3;
-
     --color-blue: #45A29E;
 }
 
 /* --- Component Styles --- */
+body {
+    font-family: var(--font-display);
+}
+
 .icon-container {
     @apply flex items-center rounded-lg p-2 bg-background text-primary text-2xl hover:text-white transition duration-400;
 }
@@ -35,22 +34,22 @@
 
 /* --- Text Styles --- */
 .landing-title {
-    @apply font-black text-4xl bg-clip-text text-transparent bg-gradient-to-l from-teal-400 to-teal-500 p-2;
+    @apply font-bold text-4xl bg-clip-text  text-transparent bg-gradient-to-l from-teal-400 to-teal-500 p-2;
 }
 .logo-title {
-    @apply text-xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-teal-400 p-2;
+    @apply text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-teal-400 p-2;
 }
 .page-title {
-    @apply font-bold text-xl text-white;
+    @apply font-semibold text-xl text-white;
 }
 .nav-text {
-    @apply flex items-center font-semibold text-light-gray border-2 border-transparent hover:border-2 hover:border-b-primary hover:text-primary transition duration-400 mx-3 px-2 py-1;
+    @apply flex items-center font-medium text-white border border-transparent hover:border hover:border-b-primary hover:text-primary transition duration-400 mx-3 px-2 py-1;
 }
 .sidebar-text {
-    @apply text-white font-bold;
+    @apply text-white font-semibold transition duration-400;
 }
 .default-text {
-    @apply text-white font-light
+    @apply text-white
 }
 
 /* --- Button Styles --- */
