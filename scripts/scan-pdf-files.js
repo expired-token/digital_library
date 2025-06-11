@@ -1,4 +1,4 @@
-import { readdirSync, writeFileSync } from 'fs';
+/*import { readdirSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
@@ -49,4 +49,4 @@ writeFileSync(join(publicFolderPath, 'pdf-list-veg.json'), JSON.stringify(coursV
 writeFileSync(join(publicFolderPath, 'pdf-list-ani.json'), JSON.stringify(coursAniPdfFiles, null, 2));
 writeFileSync(join(publicFolderPath, 'pdf-list-pfe.json'), JSON.stringify(pfePdfFiles, null, 2));
 writeFileSync(join(publicFolderPath, 'pdf-list-td.json'), JSON.stringify(tdPdfFiles, null, 2));
-writeFileSync(join(publicFolderPath, 'pdf-list-tp.json'), JSON.stringify(tpPdfFiles, null, 2));
+writeFileSync(join(publicFolderPath, 'pdf-list-tp.json'), JSON.stringify(tpPdfFiles, null, 2));*/
