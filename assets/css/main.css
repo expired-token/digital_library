@@ -14,16 +14,18 @@
     --color-blue: #45A29E;
 }
 
-/* --- Component Styles --- */
+/* --- General Styles --- */
 body {
     font-family: var(--font-display);
+    color: var(--color-white);
 }
 
+/* --- Component Styles --- */
 .icon-container {
     @apply flex items-center rounded-lg p-2 bg-background text-primary text-2xl hover:text-white transition duration-400;
 }
 .icon-primary {
-    @apply hover:bg-primary ;
+    @apply  hover:bg-gradient-to-br hover:from-primary hover:to-blue;
 }
 .icon-red {
     @apply hover:bg-danger;
@@ -34,26 +36,22 @@ body {
 
 /* --- Text Styles --- */
 .landing-title {
-    @apply font-bold text-4xl bg-clip-text  text-transparent bg-gradient-to-l from-teal-400 to-teal-500 p-2;
+    @apply md:font-bold font-semibold lg:text-4xl text-3xl bg-clip-text text-transparent bg-gradient-to-l from-teal-400 to-blue;
 }
 .logo-title {
     @apply text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-teal-400 p-2;
 }
 .page-title {
-    @apply font-semibold text-xl text-white;
+    @apply font-semibold text-xl;
 }
 .nav-text {
-    @apply flex items-center font-medium text-white border border-transparent hover:border hover:border-b-primary hover:text-primary transition duration-400 mx-3 px-2 py-1;
+    @apply flex items-center font-medium border border-transparent hover:border hover:border-b-primary hover:text-primary transition duration-400;
 }
 .sidebar-text {
-    @apply text-white font-semibold transition duration-400;
-}
-.default-text {
-    @apply text-white
+    @apply font-semibold transition duration-400;
 }
 
 /* --- Button Styles --- */
-
 .button-primary {
     @apply border-primary text-white hover:bg-primary ;
 }

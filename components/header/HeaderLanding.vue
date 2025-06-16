@@ -24,7 +24,7 @@ const navList: any[] = [
 </script>
 
 <template>
-  <div class="w-1/3 inline-flex justify-between bg-transparent">
+  <div class="md:w-1/3 w-1/2 inline-flex justify-between bg-transparent">
     <nav v-for="nav in navList">
       <NuxtLink :to="nav.route" class="nav-text">{{ nav.title }}</NuxtLink>
     </nav>

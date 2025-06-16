@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "path": "../pfe/1e Année Baccalauréat Scientifique.pdf",
+    "title": "1e Année Baccalauréat Scientifique"
+  },
+  {
+    "path": "../pfe/2e Année Baccalauréat SVT.pdf",
+    "title": "2e Année Baccalauréat SVT"
+  },
+  {
+    "path": "../pfe/Tronc Commun Scientifique.pdf",
+    "title": "Tronc Commun Scientifique"
+  }
+]

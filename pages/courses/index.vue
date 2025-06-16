@@ -8,7 +8,31 @@ let courseList: any[] = [
   {
     title: "Biologie Animale",
     route: "../courses/bio-animale"
-  }
+  },
+  /*{
+    title: "Biologie Végétale",
+    route: "../courses/bio-veg"
+  },
+  {
+    title: "Biologie Animale",
+    route: "../courses/bio-animale"
+  },
+  {
+    title: "Biologie Végétale",
+    route: "../courses/bio-veg"
+  },
+  {
+    title: "Biologie Animale",
+    route: "../courses/bio-animale"
+  },
+  {
+    title: "Biologie Végétale",
+    route: "../courses/bio-veg"
+  },
+  {
+    title: "Biologie Animale",
+    route: "../courses/bio-animale"
+  }*/
 ];
 
 definePageMeta({

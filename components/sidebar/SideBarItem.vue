@@ -36,7 +36,7 @@ function selectItem(): void {
 <style scoped>
 
 .item-container:hover .icon-container {
-  background-color: var(--color-primary);
+  background-image: linear-gradient(to bottom right, var(--color-primary), var(--color-blue));
   color: var(--color-white);
 }
 .item-container:hover .sidebar-text {
