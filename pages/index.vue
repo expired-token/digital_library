@@ -18,7 +18,7 @@ definePageMeta(
         <h1 class="landing-title">Bienvenue sur votre librairie digitale</h1>
         <!-- TODO - Search bar for all resources on the website -->
         <form class="md:w-1/2 w-11/12">
-          <FormField type="text" placeholder="Trouver une ressource.." />
+          <FormField type="text" placeholder="Trouver une ressource.." disabled />
         </form>
         <!-- TODO - End TODO -->
       </section>

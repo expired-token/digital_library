@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
   const route = useRoute();
 
   let test: Array<RadioItem> = [
@@ -16,11 +15,7 @@
       value: "item3",
     },
   ];
-  let openModal = ref(false);
 
-  function toggleModal() {
-    openModal.value = !openModal.value;
-  }
 </script>
 
 
@@ -36,7 +31,7 @@
 
         <section class="flex justify-between items-center">
           <h1 class="page-title">{{ `Liste des ${route.meta.title}` }}</h1>
-          <Button v-show="route.meta.buttonExists" text="Ajouter" @click="toggleModal" />
+          <Button v-show="route.meta.buttonExists" text="Ajouter" btn-style="disabled" />
         </section>
 
         <Modal :title="route.meta.title as string"></Modal>
