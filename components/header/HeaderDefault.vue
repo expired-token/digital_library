@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 
-<template><!--bg-transparent border border-primary text-primary md:border-0 md:bg-background md:text-primary-->
+<template>
   <div class="flex justify-between items-center h-1/10 mx-7 md:mx-10 bg-transparent">
     <div class="icon-container icon-primary">
 <!--      <Icon-->

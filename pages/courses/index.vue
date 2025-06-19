@@ -36,21 +36,19 @@ let courseList: any[] = [
 ];
 
 definePageMeta({
-  title: "Liste des cours",
+  title: "cours",
   buttonExists: false,
 });
 
 </script>
 
 <template>
-
-    <Card
-        v-for="course in courseList"
-        :title="course.title"
-        :route="course.route"
-        type="section"
-    />
-
+  <Card
+    v-for="course in courseList"
+    :title="course.title"
+    :route="course.route"
+    type="section"
+  />
 </template>
 
 <style scoped></style>

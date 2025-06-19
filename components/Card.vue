@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import FileCard from "~/components/card/FileCard.vue";
-
   defineProps<{
     type: "file" | "section";
     route?: string;

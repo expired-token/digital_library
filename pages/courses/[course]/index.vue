@@ -1,6 +1,6 @@
 <script setup lang="ts">
   definePageMeta({
-    title: "Liste des cours",
+    title: "cours",
     buttonExists: true,
   })
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 definePageMeta({
-  title: "Liste des PFE",
+  title: "PFE",
   buttonExists: false,
 })
 

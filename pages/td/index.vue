@@ -16,7 +16,7 @@
 // ];
 
 definePageMeta({
-  title: "Liste des travaux dirigés",
+  title: "travaux dirigés",
   buttonExists: false,
 })
 

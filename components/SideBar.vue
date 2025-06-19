@@ -40,10 +40,10 @@ const itemsList: Item[] = [
 </script>
 
 <template>
-  <div class="collapse md:visible bg-secondary shadow-2xl pl-10 pr-15 transition duration-400"><!---->
+  <div class="flex flex-col items-baseline w-1/6 pl-7 collapse md:visible bg-secondary transition duration-400">
 
     <section class="flex items-center h-1/10 mb-2">
-      <NuxtLink to="/"><h1 class="logo-title">Librairie Digitale</h1></NuxtLink>
+      <NuxtLink to="/"><h1 class="logo-title w-fit">Librairie Digitale</h1></NuxtLink>
     </section>
 
     <section v-for="item in itemsList">

@@ -17,7 +17,7 @@
 
 
 definePageMeta({
-  title: "Liste des travaux pratiques",
+  title: "travaux pratiques",
   buttonExists: false,
 })
 

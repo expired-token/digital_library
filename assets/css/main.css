@@ -5,7 +5,7 @@
     --font-display: "Montserrat", sans-serif;
     --color-primary: #32C1C6;
     --color-secondary: #1F2833;
-    --color-disabled: #C5C6C7;
+    --color-disabled: #555555;
     --color-background: #0B0C10;
     --color-white: #E4E3E3;
     --color-warn: #C4B135;
@@ -16,19 +16,19 @@
 
 /* --- General Styles --- */
 body {
-    font-family: var(--font-display);
+    font-family: var(--font-display), sans-serif;
     color: var(--color-white);
 }
 
 /* --- Component Styles --- */
 .icon-container {
-    @apply flex items-center rounded-lg p-2 bg-background text-primary text-2xl hover:text-white transition duration-400;
+    @apply flex items-center rounded-xl p-2 bg-background text-primary text-2xl hover:text-white transition duration-400;
 }
 .icon-primary {
     @apply  hover:bg-gradient-to-br hover:from-primary hover:to-blue;
 }
 .icon-red {
-    @apply hover:bg-danger;
+    @apply cursor-pointer hover:bg-danger;
 }
 .icon-blue {
     @apply hover:bg-blue;
@@ -50,9 +50,8 @@ body {
 .sidebar-text {
     @apply font-semibold transition duration-400;
 }
-
-/* --- Button Styles --- */
-.button-primary {
-    @apply border-primary text-white hover:bg-primary ;
+.form-label-text {
+    @apply font-medium text-primary;
 }
+
 

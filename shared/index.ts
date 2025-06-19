@@ -25,5 +25,10 @@ declare global {
         route?: string;
         background?: string;
     }
+
+    interface RadioItem {
+        name: string;
+        value: string;
+    }
 }
 
