@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="w-full flex justify-around items-center bg-background h-46 p-3"><!--justify-evenly-->
+  <div class="w-full flex justify-around items-center bg-background h-46 p-5 md:p-0 border-t-2 border-dashed border-primary">
 
       <section class="flex flex-col gap-5">
         <div>
