@@ -24,7 +24,7 @@ function selectItem(): void {
 <template>
 
   <NuxtLink :to="route" @click="selectItem">
-    <div class="item-container flex items-center py-3 transition duration-400">
+    <div class="item-container flex items-center py-3">
       <span class="icon-container mr-3"><Icon :name="prefixIcon" /></span>
       <span class="sidebar-text">{{ title }}</span>
     </div>

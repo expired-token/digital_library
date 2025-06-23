@@ -34,8 +34,6 @@
           <Button v-show="route.meta.buttonExists" text="Ajouter" btn-style="disabled" />
         </section>
 
-        <Modal :title="route.meta.title as string"></Modal>
-
         <section class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 items-center mt-6">
           <slot />
         </section>
@@ -45,7 +43,18 @@
     </div>
   </div>
 
+  <div class="flex w-full border-primary">
+    <span class="side-style w-1/6 bg-secondary collapse md:visible"></span>
+    <Footer />
+  </div>
+
+
+
 </template>
 
 
-<style scoped></style>
+<style scoped>
+  .side-style {
+    background: linear-gradient(to bottom right, var(--color-secondary) 50%, var(--color-background) 0%);
+  }
+</style>
